@@ -12,7 +12,7 @@
 <preference name="show-splash-screen-spinner" value="true" />
 <preference name="splash-screen-duration" value="10000" />	
 <preference name="permissions" value="none"/>
-<name>Canal 9</name>
+<name>Conectar con usuario</name>
 
 <access origin="http://projerdesign.com/"/>
 <access uri="http://projerdesign.com/" />
