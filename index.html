@@ -40,7 +40,7 @@
  
 	<div data-role="content">	
 		<h2> Bienvenido a la aplicacion </h2>
-		<h3> Su usuario y password son v�lidos</h3>
+		<h3> Su usuario y password son váidos</h3>
 	</div>
  
 </div>
@@ -54,7 +54,7 @@ $('#formulario').submit(function() {
 	var datosUsuario = $("#nombredeusuario").val()
 	var datosPassword = $("#clave").val()
 	
-  	archivoValidacion = "http://projerdesign.com/php_test/phonegap/___session phonegap/validacion_de_datos.php?jsoncallback=?"
+  	archivoValidacion = "http://projerdesign.com/php_test/___session phonegap/validacion_de_datos.php?jsoncallback=?"
  
 	$.getJSON( archivoValidacion, { usuario:datosUsuario ,password:datosPassword})
 	.done(function(respuestaServer) {
